@@ -1,0 +1,42 @@
+body{
+    background: white;
+}
+
+.noPadding{
+    padding: 0px;
+}
+
+/* .col-md-12,
+.col-md-4,
+.col-md-6{
+    border: solid 1px black;
+} */
+
+.marginTopBottom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dollarButtons{
+    width: 100px;
+    margin: 10px;
+}
+
+.donateButton{
+    width: 100%;
+}
+
+.mailingList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+.mailingList h4{
+    align-self: flex-start;
+}
+
+.footer{
+    min-height: 30vh;
+}
